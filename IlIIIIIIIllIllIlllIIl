@@ -17,7 +17,6 @@ local list = {
 1240860265, -- Selur
 2839859823, -- telegram
 7737854967, -- telegram
-4358359547, -- treeesh
 7803941966, -- bsg_lucky
  898470911, -- Tukule
 1981607939, -- StarAce_Luna
@@ -32,7 +31,8 @@ local list = {
 1240860265, -- RUL3SG4MING
 1320143880, -- Sondestan220
 1247779897, -- BloodPuppit
-5151679300 -- BloodPuppit
+5151679300, -- BloodPuppit
+4310517008, -- Myckyn nereha
 
 }
 return table.find(list, game.Players.LocalPlayer.UserId) ~= nil
