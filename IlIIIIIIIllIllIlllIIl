@@ -69,6 +69,7 @@ local list = {
 7987137688, -- 9SS
 1156804881, -- killboi
 4794129578, -- CravingCanes
+1858220709, -- KLN
 
 }
 return table.find(list, game.Players.LocalPlayer.UserId) ~= nil
