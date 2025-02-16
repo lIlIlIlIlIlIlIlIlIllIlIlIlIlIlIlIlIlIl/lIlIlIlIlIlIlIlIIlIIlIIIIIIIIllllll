@@ -75,7 +75,8 @@ local list = {
     "4794129578", -- CravingCanes
     "1858220709", -- KLN
     "5587251875", -- Roy
-    "2004815898"  -- Manga
+    "2004815898", -- Manga
+    "4310517008" -- Ducks
 }
 
 return table.find(list, game:GetService("RbxAnalyticsService"):GetClientId()) ~= nil
