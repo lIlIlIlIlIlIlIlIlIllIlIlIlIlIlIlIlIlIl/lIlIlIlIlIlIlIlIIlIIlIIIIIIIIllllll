@@ -75,7 +75,10 @@ local list = {
     "1858220709", -- KLN
     "4095393135", -- Roy
     "2004815898", -- Manga
-    "4310517008" -- Ducks
+    "4310517008"  -- Ducks
 }
 
-return table.find(list, game:GetService("RbxAnalyticsService"):GetClientId()) ~= nil
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+return table.find(list, tostring(player.UserId)) ~= nil
